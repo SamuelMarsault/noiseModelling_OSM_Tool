@@ -40,7 +40,7 @@ To create a noise map with this project, please follow the steps below.
 
 ### 1. ⚙️ Configuration and Requirements
 
-To get started, you need to either fork the project and set it up locally or simply download the .jar file from the [Release](Release) section.
+To get started, you need to either fork the project and set it up locally or simply download the .jar file in `Release` section on git.
 
 #### A. 🔊 NoiseModelling
 
@@ -52,7 +52,7 @@ You will also need the QGIS software. You can install it [here](https://www.qgis
 
 ### 2. 📁 Create Files
 
-After completing the configuration and downloading the .jar file, place it in your desired directory. You can execute it with this command (if the .jar is in the same directory):
+After completing the configuration and downloading the .jar file, place it in your desired directory. You can execute it with this command (if the .jar is in the same directory of the README):
 
 ```shell
 java -jar GeoClimate_Tools-1.0.1-SNAPSHOT.jar -l "Urbach" -o "$(pwd)" -s 2154
@@ -73,7 +73,7 @@ Inside, there should be 5 files:
 
 - `building.geojson` 🏙
 - `dem.geojson` 🔲
-- `rail?geojson` 🚆
+- `rail.geojson` 🚆
 - `ground_acoustic.geojson` 🌱
 - `road_traffic.geojson` 🛣️
 
@@ -171,3 +171,4 @@ Well done! You have finished the tutorial and have a wonderful noise map.
 
 - [NoiseModelling](https://github.com/Universite-Gustave-Eiffel/NoiseModelling)
 - [geoClimate](https://github.com/orbisgis/geoclimate)
+- [QGIS](https://www.qgis.org/en/site/)

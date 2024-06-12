@@ -241,6 +241,8 @@ static def exec(Connection connection, input, Boolean isCommandeLine) {
 
   logger.info('File is ready for noiseModelling')
 
+  sleep(1000)
+
   deleteFGBFiles(Paths.get(outputDirectory,"osm_"+location).toString(), logger)
 
   resultString = "Success"
