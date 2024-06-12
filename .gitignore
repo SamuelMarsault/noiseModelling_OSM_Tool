@@ -37,3 +37,4 @@ build/
 ## Project ##
 notes_questions
 outPut/**/osm_*
+.jar
